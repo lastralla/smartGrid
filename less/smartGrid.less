@@ -1,0 +1,46 @@
+// global smartGrid vars
+@smartGrid-default-colNum : 12;
+@smartGrid-default-colWidth : 60; // without units
+@smartGrid-default-gutterWidth : 10; // without units
+@smartGrid-default-units : "px"; // "px" or "%"
+
+#smartGrid {
+
+    @colNum : 12;
+    @colWidth : 60;     // without units
+    @gutterWidth : 20;  // without units
+    @units : "px";      // "px" or "%"
+
+    .priv_setGrid(
+            @colNum: @smartGrid-default-colNum,
+            @colWidth: @smartGrid-default-colWidth, 
+            @gutterWidth: @smartGrid-default-gutterWidth, 
+            @units: @smartGrid-default-units) {
+        // empty mixin used to reset internal values
+        // TODO: make it so that values get updated
+    }
+
+    .priv_setSideMargin(@gutterWidth: @gutterWidth) {
+        @sideMargin: @gutterWidth / 2 * 1px;
+        margin-left: @sideMargin;
+        margin-right: @sideMargin;
+     }
+    
+    .container(@colNum, @colWidth, @gutterWidth, @units) {
+        #smartGrid > .priv_setGrid(@colNum, @colWidth, @gutterWidth, @units);
+        //width: (@colNum + @gutterWidth) * @colNum * 1@{units};
+        // TODO: make it so percentages can be passed in as a param
+        width: (@colWidth + @gutterWidth) * @colNum * 1px;
+        overflow: hidden;
+    }
+
+    .column(@cols: 1, @colWidth, @gutterWidth, @units) {
+        float: left;
+        //width: ( ( @cols * @colWidth ) + ( (@cols - 1) * @gutterWidth ) ) * 1@{units};
+        width: ( ( @cols * @colWidth ) + ( (@cols - 1) * @gutterWidth ) ) * 1px;
+        overflow: hidden;
+        #smartGrid > .priv_setSideMargin(@gutterWidth);
+        // TODO: make it so that default values get updated without having to explicitly pass the gutter
+    }
+
+}

@@ -1,0 +1,158 @@
+@import "smartGrid.less";
+
+
+// TODO: replace butt ugly colors.
+
+body {
+	background: #f1f5f6;
+	color: #444444;
+	font-family: sans-serif;
+}
+
+#outerGridContainer-1 {
+	#smartGrid > .container(12, 60, 20, 'px');
+
+	.col {
+		#smartGrid > .column(2, 60, 20, 'px');
+		min-height: 50px;		
+		text-align: center;
+		padding: 10px 0;
+		border-radius: 15px 5px 15px 5px;
+		background: #e6ecee;
+	}
+}
+
+#outerGridContainer-2 {
+	#smartGrid > .container(5, 102, 6, 'px');
+
+	.burt, .ernie {
+		min-height: 50px;
+		text-align: center;
+		padding: 10px 0;
+		border-radius: 8px;
+		background: #e5eeed;
+	}
+
+	.burt {
+		#smartGrid > .column(2, 102, 6, 'px');
+	}
+
+	.ernie {
+		#smartGrid > .column(3, 102, 6, 'px');
+	}
+}
+
+#outerGridContainer-3 {
+	#smartGrid > .container(10, 80, 10, 'px');
+
+	.col1, .col2 {
+		min-height: 50px;
+		text-align: center;
+		padding: 10px 0;
+		background: #e5edee;
+	}
+
+	.col1 {
+		#smartGrid > .column(6, 60, 20, 'px');
+	}
+
+	.col2 {
+		#smartGrid > .column(4, 60, 20, 'px');
+	}
+
+	#outerGridContainer-3a {
+		#smartGrid > .container(8, 45, 10, 'px');
+
+		.col {
+			#smartGrid > .column(2, 45, 10, 'px');
+			background: #f1f5f6;
+			border-radius: 10px 2px 10px 2px;
+			padding: 10px 0;
+		}
+	}
+
+	#outerGridContainer-3b {
+		#smartGrid > .container(3, 70, 16, 'px');
+
+		.col {
+			#smartGrid > .column(1, 70, 16, 'px');
+			background: #f1f5f6;
+			border-radius: 2px 10px 2px 10px;
+			padding: 10px 0;
+		}
+	}
+}
+
+#outerGridContainer-4 {
+	#smartGrid > .container(13, 50, 30, 'px');
+
+	.nav, .content, .extraShitNobodyKnowsWhereToPutSoWeWillPutItHere {
+		min-height: 50px;
+		text-align: center;
+		padding: 10px 0;
+		background: #e5edee;
+	}
+
+	.nav {
+		#smartGrid > .column(4, 50, 30, 'px');
+
+	}
+
+	.content {
+		#smartGrid > .column(6, 50, 30, 'px');
+	}
+
+	.extraShitNobodyKnowsWhereToPutSoWeWillPutItHere {
+		#smartGrid > .column(3, 50, 30, 'px');
+	}
+}
+
+#outerGridContainer-5 {
+	#smartGrid > .container(15, 60, 10, 'px');
+
+	.col {
+		#smartGrid > .column(5, 60, 10, 'px');
+		text-align: center;
+		padding: 10px 0;
+		background: #e5eeed;
+	}
+
+	#outerGridContainer-5a {
+		#smartGrid > .container(3, 90, 10, 'px');
+
+		.geddy, .alex, .neil {
+			#smartGrid > .column(1, 90, 10, 'px');
+			text-align: center;
+			padding: 10px 0;
+			background: #f1f5f6;
+		}
+	}
+
+	#outerGridContainer-5b {
+		#smartGrid > .container(4, 85, 0, 'px');
+
+		.beatle {
+			#smartGrid > .column(1, 85, 0, 'px');
+			text-align: center;
+			padding: 10px 0;
+		}
+	}
+
+	#outerGridContainer-5c {
+		#smartGrid > .container(22, 11, 4, 'px');
+
+		.jack {
+			#smartGrid > .column(11, 11, 4, 'px');
+			text-align: center;
+			padding: 10px 0;
+			background: #f1f5f6;
+		}
+
+		.meg {
+			#smartGrid > .column(11, 11, 4, 'px');
+			text-align: center;
+			padding: 10px 0;
+			background: #f1f5f6;
+		}
+	}
+}

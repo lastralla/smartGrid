@@ -1,0 +1,200 @@
+body {
+  background: #f1f5f6;
+  color: #444444;
+  font-family: sans-serif;
+}
+#outerGridContainer-1 {
+  width: 960px;
+  overflow: hidden;
+}
+#outerGridContainer-1 .col {
+  float: left;
+  width: 140px;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-height: 50px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 15px 5px 15px 5px;
+  background: #e6ecee;
+}
+#outerGridContainer-2 {
+  width: 540px;
+  overflow: hidden;
+}
+#outerGridContainer-2 .burt,
+#outerGridContainer-2 .ernie {
+  min-height: 50px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 8px;
+  background: #e5eeed;
+}
+#outerGridContainer-2 .burt {
+  float: left;
+  width: 210px;
+  overflow: hidden;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+#outerGridContainer-2 .ernie {
+  float: left;
+  width: 318px;
+  overflow: hidden;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+#outerGridContainer-3 {
+  width: 900px;
+  overflow: hidden;
+}
+#outerGridContainer-3 .col1,
+#outerGridContainer-3 .col2 {
+  min-height: 50px;
+  text-align: center;
+  padding: 10px 0;
+  background: #e5edee;
+}
+#outerGridContainer-3 .col1 {
+  float: left;
+  width: 460px;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#outerGridContainer-3 .col2 {
+  float: left;
+  width: 300px;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#outerGridContainer-3 #outerGridContainer-3a {
+  width: 440px;
+  overflow: hidden;
+}
+#outerGridContainer-3 #outerGridContainer-3a .col {
+  float: left;
+  width: 100px;
+  overflow: hidden;
+  margin-left: 5px;
+  margin-right: 5px;
+  background: #f1f5f6;
+  border-radius: 10px 2px 10px 2px;
+  padding: 10px 0;
+}
+#outerGridContainer-3 #outerGridContainer-3b {
+  width: 258px;
+  overflow: hidden;
+}
+#outerGridContainer-3 #outerGridContainer-3b .col {
+  float: left;
+  width: 70px;
+  overflow: hidden;
+  margin-left: 8px;
+  margin-right: 8px;
+  background: #f1f5f6;
+  border-radius: 2px 10px 2px 10px;
+  padding: 10px 0;
+}
+#outerGridContainer-4 {
+  width: 1040px;
+  overflow: hidden;
+}
+#outerGridContainer-4 .nav,
+#outerGridContainer-4 .content,
+#outerGridContainer-4 .extraShitNobodyKnowsWhereToPutSoWeWillPutItHere {
+  min-height: 50px;
+  text-align: center;
+  padding: 10px 0;
+  background: #e5edee;
+}
+#outerGridContainer-4 .nav {
+  float: left;
+  width: 290px;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#outerGridContainer-4 .content {
+  float: left;
+  width: 450px;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#outerGridContainer-4 .extraShitNobodyKnowsWhereToPutSoWeWillPutItHere {
+  float: left;
+  width: 210px;
+  overflow: hidden;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#outerGridContainer-5 {
+  width: 1050px;
+  overflow: hidden;
+}
+#outerGridContainer-5 .col {
+  float: left;
+  width: 340px;
+  overflow: hidden;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  padding: 10px 0;
+  background: #e5eeed;
+}
+#outerGridContainer-5 #outerGridContainer-5a {
+  width: 300px;
+  overflow: hidden;
+}
+#outerGridContainer-5 #outerGridContainer-5a .geddy,
+#outerGridContainer-5 #outerGridContainer-5a .alex,
+#outerGridContainer-5 #outerGridContainer-5a .neil {
+  float: left;
+  width: 90px;
+  overflow: hidden;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  padding: 10px 0;
+  background: #f1f5f6;
+}
+#outerGridContainer-5 #outerGridContainer-5b {
+  width: 340px;
+  overflow: hidden;
+}
+#outerGridContainer-5 #outerGridContainer-5b .beatle {
+  float: left;
+  width: 85px;
+  overflow: hidden;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  padding: 10px 0;
+}
+#outerGridContainer-5 #outerGridContainer-5c {
+  width: 330px;
+  overflow: hidden;
+}
+#outerGridContainer-5 #outerGridContainer-5c .jack {
+  float: left;
+  width: 161px;
+  overflow: hidden;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+  padding: 10px 0;
+  background: #f1f5f6;
+}
+#outerGridContainer-5 #outerGridContainer-5c .meg {
+  float: left;
+  width: 161px;
+  overflow: hidden;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: center;
+  padding: 10px 0;
+  background: #f1f5f6;
+}
